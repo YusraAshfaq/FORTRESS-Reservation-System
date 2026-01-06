@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- ================= BOOKING PAGE ================= -->
+<section id="booking" class="page">
+
+    <section class="explore-section">
+        <div class="container">
+            <h2 class="section-title">Reserve Your Date</h2>
+            <p class="section-subtitle">
+                Select a preferred date to view availability at Jinnah Gardens.
+            </p>
+
+            <div class="booking-container">
+
+                <div class="availability-box">
+                    <h3>1. Check Availability</h3>
+                    <input type="date" id="check-date" class="booking-input">
+                    <div id="slots-container" class="slots-grid">
+                        <p class="status-text">Select a date to see open slots.</p>
+                    </div>
+                </div>
+
+                <div id="details-form" class="details-box disabled-box">
+                    <h3>2. Event Details</h3>
+                    <form id="final-booking-form">
+                        <input type="text" placeholder="Full Name" required class="booking-input">
+                        <input type="email" placeholder="Email Address" required class="booking-input">
+                        <select class="booking-input" required>
+                            <option disabled selected>Select Event Type</option>
+                            <option>Wedding Ceremony</option>
+                            <option>Corporate Gala</option>
+                            <option>Reception</option>
+                            <option>Private Celebration</option>
+                        </select>
+                        <button type="submit" class="plan-btn">Confirm Reservation</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+       	 <div id="confirmation-message" class="confirmation-box" style="display:none;">
+    <h3>🎉 Reservation Confirmed!</h3>
+    <p>Your event has been successfully booked at Fortress.</p>
+    <p>We will contact you shortly via email.</p>
+</div>
+
+    </section>
+
+</section>
+
+<!-- ================= PRICING PAGE ================= -->
+<section id="pricing" class="page">
+    <h2 style="text-align:center; padding:80px;">Ticket Pricing (Coming Soon)</h2>
+</section>
+
+<!-- ================= CONTACT PAGE ================= -->
+<section id="contact" class="page">
+    <h2 style="text-align:center; padding:80px;">Contact Us (Coming Soon)</h2>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Fortress Reservation System</p>
+    <p class="group">
+        ICT Project | Group: <strong>Tri-Core</strong><br>
+        Members: Yusra Ashfaq, Areeba Qamar, Zeenia Rasool
+    </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
