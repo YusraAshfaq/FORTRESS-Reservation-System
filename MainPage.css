@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+.page {
+    display: none;   /* hide all sections by default */
+}
+
+.arrow {
+    font-size: 10px;
+    margin-left: 4px;
+}
+
+
+/* show only home at start */
+#home {
+    display: block;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    color: #D4AF37;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    background-image: url("images/fortress.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.hero-text {
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    color: white;
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    background-color: #D4AF37;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
