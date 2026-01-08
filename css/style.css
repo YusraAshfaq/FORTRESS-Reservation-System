@@ -59,7 +59,7 @@ nav ul li a {
 /* HERO SECTION */
 .hero {
     height: 100vh;
-    background-image: url("images/fortress.jpeg");
+    background-image: url("../images/fortress.jpeg");
     background-size: cover;
     background-position: center;
     display: flex;
